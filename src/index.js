@@ -3,7 +3,7 @@ var cors = require('cors');
 const path = require('path');
 var mongo = require('./database/connection');
 const app = express();
-
+console.log(mongo)
 app.use(cors())
 app.use(express.json());
 app.listen(3000)
